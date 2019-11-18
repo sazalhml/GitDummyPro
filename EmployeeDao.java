@@ -14,8 +14,9 @@ import org.springframework.web.client.RestTemplate;
 @Repository
 public class EmployeeDao {
 	
-
-	 public  List<Employee> getAllEmployees()
+public
+	
+ public  List<Employee> getAllEmployees()
 	{
 		String uri = "http://localhost:8080/1.0/getEmployeeList";
 		RestTemplate restTemplate = new RestTemplate();
